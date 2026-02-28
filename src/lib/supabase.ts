@@ -15,6 +15,7 @@ export type Profile = {
   real_name: string;
   nickname: string;
   created_at: string;
+  password_hash: string | null;
 };
 
 export type Task = {
