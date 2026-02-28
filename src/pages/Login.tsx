@@ -86,7 +86,7 @@ export const Login: React.FC = () => {
             <p className="text-slate-500 text-sm mb-8">
               Your account is created. Next time you visit, just enter your
               <span className="font-medium"> real name</span> and
-              <span className="font-medium"> nickname</span> to log back in.
+              <span className="font-medium"> secret spy name</span> to log back in.
             </p>
             <button
               onClick={() => { window.location.href = '/#/dashboard'; }}
@@ -144,7 +144,7 @@ export const Login: React.FC = () => {
 
             <div className="space-y-2">
               <label htmlFor="nickname" className="block text-sm font-semibold text-slate-700">
-                Nickname
+                Secret Spy Name
               </label>
               <input
                 id="nickname"
@@ -156,7 +156,7 @@ export const Login: React.FC = () => {
                 placeholder="e.g. Shadow Ninja"
               />
               <p className="text-xs text-slate-400">
-                Returning player? Same name + nickname logs you back in.
+                Returning player? Same real name + spy name logs you back in.
               </p>
             </div>
 

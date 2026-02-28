@@ -125,9 +125,9 @@ export const GuessPage: React.FC = () => {
 
                 <div className="flex items-center gap-3 mb-4">
                   <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-teal-100 to-violet-100 flex items-center justify-center text-teal-700 font-bold text-lg shadow-inner">
-                    {targetUser.nickname.charAt(0).toUpperCase()}
+                    {targetUser.real_name.charAt(0).toUpperCase()}
                   </div>
-                  <h3 className="font-semibold text-lg text-slate-800">{targetUser.nickname}</h3>
+                  <h3 className="font-semibold text-lg text-slate-800">{targetUser.real_name}</h3>
                   {hasGuessed && !isEvaluated && <CheckCircle className="w-5 h-5 text-emerald-500 ml-auto" />}
                 </div>
 
