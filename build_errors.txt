@@ -1,0 +1,4 @@
+src/contexts/AuthContext.tsx(2,10): error TS1484: 'User' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/contexts/AuthContext.tsx(2,16): error TS1484: 'Session' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/lib/utils.ts(4,31): error TS2304: Cannot find name 'ClassValue'.
+src/lib/utils.ts(5,18): error TS2304: Cannot find name 'clsx'.
