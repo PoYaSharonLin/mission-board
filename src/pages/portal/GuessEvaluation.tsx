@@ -89,7 +89,7 @@ export const GuessEvaluation: React.FC = () => {
           <p className="text-center text-slate-400 py-12 text-sm">No guesses submitted yet.</p>
         ) : (
           <div className="divide-y divide-slate-100">
-            {rows.map(({ profile, task }) => {
+            {rows.map(({ profile }) => {
               const myGuesses = guesses.filter(g => g.guesser_id === profile.id);
               if (myGuesses.length === 0) return null;
               return (
